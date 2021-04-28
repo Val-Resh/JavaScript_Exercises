@@ -11,16 +11,23 @@ Zero elements are defined by either 0 or "0". Some tests may include elements th
 You are NOT allowed to use any temporary arrays or objects. You are also not allowed to use any Array.prototype or Object.prototype methods.*/
 
 function removeZeros(array) {
-  let length = array.length;
+  let length = 0;
+  for (let element of array) {
+    length++;
+  }
+  let lengthY = length - 1;
   for (let i = 0; i < length; i++){
     if (array[i] === 0 || array[i] === "0"){
       let temp = array[i];
-      for (let k = i--; k < array.length-1; k++){
+      for (let k = i--; k < lengthY; k++){
         array[k] = array[k + 1];
       }
-      array[array.length-1] = temp;
+      array[lengthY] = temp;
       length--;
     }
   }
   return array;
 }
+
+//I forgot that array.length is part of the array.prototype methods, so I changed the code to manually count the length. 
+// Now my solution should be correct and following all rules.
