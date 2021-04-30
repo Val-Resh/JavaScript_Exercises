@@ -10,12 +10,9 @@ Notes
 Return an empty array if the object is empty.*/
 
 function toArray(obj) {
-	return Object.entries(obj);
-}
-function toArray(obj) {
 	let solution = [];
 	for (let [key, value] of Object.entries(obj)){
-		solution.push([key, value]);
+	solution.push([key, value]);
 	return solution;
 }
   
