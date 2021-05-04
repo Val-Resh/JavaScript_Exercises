@@ -20,7 +20,7 @@ oddishOrEvenish(4433) ➞ "Evenish"
 // 14 % 2 = 0 */
 
 function oddishOrEvenish(num) {
-	let sum = 0;
+  let sum = 0;
   const string = num.toString();
   let array = [];
   for (let c of string){
