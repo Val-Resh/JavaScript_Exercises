@@ -15,12 +15,12 @@ Return an empty string if no words are eligible (see example #3).
 If multiple valid words have the same length, return the first word that appears. */
 
 function longest7SegmentWord(arr) {
-	let solution = "";
-	let temp = [];
-	arr.forEach(value => {
+   let solution = "";
+   let temp = [];
+   arr.forEach(value => {
     if(value.search(/[kmvwx]/) === -1) temp.push(value);
-  });
-  temp.sort((a,b) => b.length - a.length);
-  if (temp.length !== 0) solution = temp[0];
-  return solution;
+   });
+   temp.sort((a,b) => b.length - a.length);
+   if (temp.length !== 0) solution = temp[0];
+   return solution;
   }
