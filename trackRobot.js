@@ -30,7 +30,6 @@ function trackRobot(...steps) {
     if (i % 2 === 0) NY.push(array[i]);
     else EW.push(array[i]);
   }
-  console.log(NY + " " + EW);
   NY.forEach(value => {
     if(x === 1 ) {
       solution[1] += value;
