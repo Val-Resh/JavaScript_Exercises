@@ -15,7 +15,6 @@ var list1 = [
 your function should return the following object:
 { C: 2, JavaScript: 1, Ruby: 1 }
 
-
 Notes:
 The order of the languages in the object does not matter.
 The count value should be a valid number.
