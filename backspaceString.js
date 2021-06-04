@@ -11,7 +11,7 @@ Examples
 */
 
 function cleanString(s) {
-	let solution = "";
+  let solution = "";
   while(s.includes("#")){
     let index = s.indexOf("#");
     s = s.substring(0, index - 1) + s.substring(index + 1, s.length);
