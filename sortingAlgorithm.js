@@ -18,7 +18,7 @@ The arrays won't contain duplicate numbers.
 This is a challenge to enhance your ability, using the sort built-in won't enhance your skills. */
 
 function sortArray(arr) {
-	let solution = [];
+  let solution = [];
   while(arr.length){
   let smallestNumber = arr[0];
 	arr.forEach(value => {
