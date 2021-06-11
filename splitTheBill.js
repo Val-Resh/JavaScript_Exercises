@@ -17,7 +17,6 @@
   should return{A: 5, B: 0, C: -5} */
 
 function splitTheBill(x) {
-    //write code 
     let billValue = 0;
     let countPeople = 0;
     for (let val of Object.values(x)) {
