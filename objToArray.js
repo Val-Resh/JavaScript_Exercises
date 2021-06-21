@@ -16,7 +16,7 @@ function toArray(obj) {
 	return solution;
 }
   
-  //alternatively you can simply do 
- /*function toArray(obj) {
+  /*alternatively you can simply do 
+  function toArray(obj) {
 	return Object.entries(obj);
 }*/
