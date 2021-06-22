@@ -31,3 +31,5 @@ function removeZeros(array) {
 
 //I forgot that array.length is part of the array.prototype methods, so I changed the code to manually count the length. 
 // Now my solution should be correct and following all rules.
+
+
